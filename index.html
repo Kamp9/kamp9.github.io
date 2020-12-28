@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
 <body>
-hello
+<script>
+    function validateform(){
+        var name=document.myform.name.value;
+
+        if (name==null || name=="") {
+            alert("Name can't be blank");
+            return false;
+        }
+    }
+</script>
+<body>
+<form name="myform" method="post" action="https://kamp9.github.io/BlindedByTheLights.html" onsubmit="return validateform()" >
+    Name: <input type="text" name="name"><br/>
+    <input type="submit" value="register">
+</form>
 </body>
-</html>
+
