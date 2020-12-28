@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af06618a-43b0-4f9e-ab5f-2aa45e446a1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BlindedByTheLights.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -44,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609182481062</updated>
-      <workItem from="1609182482832" duration="940000" />
+      <workItem from="1609182482832" duration="1042000" />
     </task>
     <servers />
   </component>
