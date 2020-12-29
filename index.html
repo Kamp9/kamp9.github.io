@@ -1,16 +1,16 @@
 <body>
 <script>
     function validateform(){
-        var name=document.myform.name.value;
+        let name=document.myform.name.value;
 
-        if (name==null || name=="") {
-            alert("Name can't be blank");
+        if (name != "secret") {
+            alert("Sorry Wrong Answer");
             return false;
         }
     }
 </script>
 <body>
-<form name="myform" method="post" action="http://kamp9.github.io/BlindedByTheLights.html" onsubmit="return validateform()" >
+<form name="myform" method="get" action="http://kamp9.github.io/BlindedByTheLights.html" onsubmit="return validateform()" >
     Name: <input type="text" name="name"><br/>
     <input type="submit" value="register">
 </form>

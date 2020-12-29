@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
 <body>
-asdasd
+<script>
+    function validateform(){
+        let name=document.myform.name.value;
+
+        if (name != "secret2") {
+            alert("Sorry Wrong Answer");
+            return false;
+        }
+    }
+</script>
+<body>
+<form name="myform" method="get" action="http://kamp9.github.io/Poem.html" onsubmit="return validateform()" >
+    Name: <input type="text" name="name"><br/>
+    <input type="submit" value="register">
+</form>
 </body>
-</html>
+
